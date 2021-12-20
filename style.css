@@ -1,19 +1,14 @@
-nav {
-    background-color: #adb1ae;
+body {
+    margin: 0;
+    padding: 0;
 }
 
-nav ul li{
-    display: inline-block;
-    text-align: left;
-    margin-left: 0;
-    }
-
-  
-
-div {
-    
-    background-color: #00ffff;
-    text-align: center;
-    
+.container {
+  background-color: #aa0000;
+  border: 2px solid green;
 }
 
+.container div {
+  background-color: grey;
+  border: 1px solid hotpink;
+}
