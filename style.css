@@ -4,11 +4,22 @@ body {
 }
 
 .container {
-  background-color: #aa0000;
-  border: 2px solid green;
+  /*background-color: #aa0000;
+  border: 10px solid green;*/
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
+  gap: 5px;
+
 }
 
-.container div {
+.div {
   background-color: grey;
-  border: 1px solid hotpink;
+  border: 5px solid hotpink;
+  height: 150px;
+ 
+}
+
+#head {
+  grid-row: 200px;
 }
