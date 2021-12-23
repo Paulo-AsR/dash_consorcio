@@ -4,37 +4,9 @@ body {
 }
 
 .container {
-<<<<<<< HEAD
-  background-color: #aa0000;
-  border: 2px solid green;
+  border: 2px solid #ff00ab;
   display: grid;
-    /*grid-template-columns: repeat(auto-fill, 40px);*/
-  /*grid-template-columns: repeat(6, 100px);*/
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
-  grid-template-rows: 50px;
-}
+  grid-template-columns: 1fr 1fr /*1fr 1fr 1fr 1fr*/
 
-.container div {
-  background-color: rgb(128, 128, 128);
-  border: 1px solid rgb(235, 10, 122);
-  grid-row: 100px;
-  }
-=======
-  /*background-color: #aa0000;
-  border: 10px solid green;*/
-  display: grid;
-  grid-template-columns:1fr;
-  grid-template-rows: auto;
-  gap: 5px;
 
 }
-
-.div {
-  background-color: grey;
-  border: 5px solid hotpink;
-}
-
-#head {
-  grid-auto-rows: max-content;
-}
->>>>>>> 7c3ba11d281d0eaf3602672a0227fe0ec7543beb
