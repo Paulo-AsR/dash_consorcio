@@ -4,6 +4,7 @@ body {
 }
 
 .container {
+<<<<<<< HEAD
   background-color: #aa0000;
   border: 2px solid green;
   display: grid;
@@ -18,3 +19,22 @@ body {
   border: 1px solid rgb(235, 10, 122);
   grid-row: 100px;
   }
+=======
+  /*background-color: #aa0000;
+  border: 10px solid green;*/
+  display: grid;
+  grid-template-columns:1fr;
+  grid-template-rows: auto;
+  gap: 5px;
+
+}
+
+.div {
+  background-color: grey;
+  border: 5px solid hotpink;
+}
+
+#head {
+  grid-auto-rows: max-content;
+}
+>>>>>>> 7c3ba11d281d0eaf3602672a0227fe0ec7543beb
