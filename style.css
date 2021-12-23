@@ -4,9 +4,19 @@ body {
 }
 
 .container {
-  border: 2px solid #ff00ab;
+ border: 2px solid #ff00ab;
   display: grid;
-  grid-template-columns: 1fr 1fr /*1fr 1fr 1fr 1fr*/
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  gap: 5px;
+  
+}
 
+.container div {
+  border: 2px solid #0000ff;
+}
 
+#head{
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
