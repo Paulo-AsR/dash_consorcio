@@ -4,8 +4,9 @@
 }*/
 
 .container {
-  border: 2px solid #ff00ab;
+  /*border: 2px solid #ff00ab;*/
   display: grid;
+  grid-template-columns: repeat(6, 1fr);
   grid-template-areas:
    "head head head head head head"
    "snd snd snd sna sna sna" 
@@ -17,7 +18,7 @@
  }
  
  .container div {
-  border: 2px solid #0000ff;
+  /*border: 2px solid #0000ff;*/
  }
  
  .head{
@@ -44,4 +45,6 @@
   grid-area: footer;
  }
  
- 
+ .center {
+   text-align: center;
+ }
