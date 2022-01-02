@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    position: relative;
+    }
+
+.ct {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas: 
+    "head head head head head head"
+    "snd snd snd sna sna sna" 
+    "fst fst fst fsa fsa fsa"
+;
+    
+   gap: 2px;
+   grid-auto-rows:105px;   
+}
+
+.head {
+    grid-area: head;
+ }
+
+.snd {
+    grid-area: snd;
+}
+
+.sna{
+    grid-area: sna;
+}
+   
+.fst {
+    grid-area: fst;
+}
+
+.fsa{
+    grid-area: fsa;
+}
+
+.center {
+    text-align: center;
+  }
