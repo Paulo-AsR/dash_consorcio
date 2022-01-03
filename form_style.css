@@ -9,22 +9,28 @@ body {
     position: relative;
     }
 
-.ct {
+.ct, .ct1 {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-areas: 
     "head head head head head head"
     "snd snd snd sna sna sna" 
     "fst fst fst fsa fsa fsa"
+    "data data data data data data"
+    "footer footer footer footer footer footer"
 ;
     
    gap: 2px;
    grid-auto-rows:105px;   
 }
 
+.ct1 {
+   display:none;
+}
+
 .head {
     grid-area: head;
- }
+}
 
 .snd {
     grid-area: snd;
@@ -45,3 +51,7 @@ body {
 .center {
     text-align: center;
   }
+
+.footer{
+    grid-area: footer;
+}
