@@ -21,7 +21,7 @@ body {
 ;
     
    gap: 2px;
-   grid-auto-rows:105px;   
+   grid-auto-rows:auto;   
 }
 
 .ct1 {

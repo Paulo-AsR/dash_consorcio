@@ -22,15 +22,24 @@
             <div  class="data p-3 border bg-light center"><strong>Prazo Atual</strong> <br><span id="pz_at"></span></div>
             <div  class="data p-3 border bg-light center"><strong>Tx. Adm Geral</strong><br><span id="tx_ad_gl"></span></div>
             <div  class="data p-3 border bg-light center"><strong>Atualização</strong> <br><span id="atlz"></span></div>
-            <div  class="footer p-3 border bg-light">onogaonaonodanvoinaoidoianio</div>
+            <div  class="footer p-3 border bg-light">
+                <footer>
+                    <span>Observações</span>
+                    <ul>
+                        <li>Os dados apresentados são apenas para fins de simulação.</li>
+                        <li>O valor da parcela pode sofrer alterações, conforme atualização do bem de referência.</li>
+                        <li>O lance simulado não é garantia de contemplação.</li>
+                    </ul>
+                </footer>
+            </div>
         </div>
 
         <form action="index.html" method="post" class="ct" id="form">
             <div  class="head p-3 border bg-light center" > <h3 id="inicial">SIMULAÇÃO CONSORCIO</h3></div>
-            <div  class="snd p-3 border bg-light center "><label for="total_contratado">Total Contratado (R$)</label> <input type="text" class="form-control" id="tot_cons"></div>
-            <div  class="sna p-3 border bg-light center"><label for="primeira_parcela">Primeira Parcela (R$)</label> <input type="text" class="form-control" id="prim_parc"></div>
-            <div  class="fst p-3 border bg-light center"><label for="valor_lance">Valor do Lance (R$)</label> <input type="text" class="form-control" id="vlr_lance"></div>
-            <div  class="fsa p-3 border bg-light center"><label for="nv_parc_pos_lance">Nova Parcela Após Lance</label><input type="text" class="form-control" id="nv_vlr_parc"></div>
+            <div  class="snd p-3 border bg-light center "><label for="total_contratado">Total Contratado (R$)</label> <input type="text" class="form-control-sm" id="tot_cons"></div>
+            <div  class="sna p-3 border bg-light center"><label for="primeira_parcela">Primeira Parcela (R$)</label> <input type="text" class="form-control-sm" id="prim_parc"></div>
+            <div  class="fst p-3 border bg-light center"><label for="valor_lance">Valor do Lance (R$)</label> <input type="text" class="form-control-sm" id="vlr_lance"></div>
+            <div  class="fsa p-3 border bg-light center"><label for="nv_parc_pos_lance">Nova Parcela Após Lance</label><input type="text" class="form-control-sm" id="nv_vlr_parc"></div>
             <div  class="data p-3 border bg-light center"><label for="grupo">Grupo</label> <input type="text" class="form-control" id="grupo"></div>
             <div  class="data p-3 border bg-light center"><label for="segmento">Segmento</label>
                 <select class="form-select" id="segmento" required>

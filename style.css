@@ -43,6 +43,7 @@
  
  .footer {
   grid-area: footer;
+  font-size: 10em;
  }
  
  .center {
